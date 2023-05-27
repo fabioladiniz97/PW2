@@ -1,0 +1,48 @@
+.container{
+  background-color: var(--gray-800);
+  border-radius: 8px;
+  overflow: hidden;/* faz com que os elementos só vão ocupar o tamanho do container. esconde tudo que sai do container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.container p{
+  color:var(--gray-400)
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarImg{
+  width:4rem;
+  height:4rem;
+  border-radius:10px;
+  padding: 5px;
+  border:2px solid var(--green-500);
+}
+
+.avatarInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 16px;
+}
+
+.avatarInfo strong{
+  color:var(--gray-100)
+}
+
+.avatarInfo span{
+  color: var(--gray-400);
+}
+
+.avatarDetalhes{
+  display: flex;
+  align-items: center;
+}

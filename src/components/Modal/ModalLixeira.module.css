@@ -1,0 +1,40 @@
+.container{
+  width: 432px;
+  height: 238px;
+  border-radius: 8px;
+  display: flex;
+  background-color: var(--gray-900);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px 74px;
+}
+
+.container h2{
+  font-size: 24px;
+}
+
+.container p{
+  text-align: center;
+  margin: 24px 0 24px 0;
+  font-weight: 400;
+}
+
+.botaoR{
+  border: none;
+  color: var(--red-500);
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: var(--gray-700);
+  padding:16px 32px;
+  cursor: pointer;
+}
+
+.botaoL{
+  padding:16px 32px;
+  border: none;
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: var(--gray-900);
+}

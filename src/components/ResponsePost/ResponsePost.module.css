@@ -1,0 +1,72 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.perfil{
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: red;
+  margin-right: 16px;
+}
+
+.allComent{
+  width: 100%;
+}
+
+.comentContainer{
+  background-color:var(--gray-700);
+  width: 100%;
+  border-radius: 8px;
+  padding: 16px 16px 24px 16px;
+}
+
+.comentContainer p{
+  color: var(--gray-200);
+}
+
+.comentTop{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.comentTop img{
+  cursor: pointer;
+}
+
+.detalhes p{
+  color:var(--gray-400);
+}
+
+.perfilTexto{
+  display: flex;
+  padding-bottom: 2px;
+}
+
+.perfilTexto p{
+  color: var(--white);
+  font-weight:600;
+}
+
+.perfilTexto span{
+  color: var(--gray-400);
+}
+
+.aplaudirOn p{
+  color:var(--green-500);
+}
+
+footer{
+  padding-top: 18px;
+  display: flex;
+  font-weight: 700;
+}
+
+footer img{
+  padding-right: 12px;
+}
